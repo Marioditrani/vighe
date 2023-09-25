@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 126px;
+    background: transparent linear-gradient(180deg, #A8C7F6 0%, #97B7E678 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+}
+h2{color: #7189AD; font-size: 70px;}
+p{font-size: 40px;}
+a{color: #7189AD; text-decoration: none;}
+a:hover{color: white;}
+
+/* ------LOGO------*/
+.logo{
+    color: white;
+    font-size: 35px;
+    width: 40%;
+}
+.top-logo{
+    padding-top: 21px;
+    padding-left: 57px;
+}
+.bottom-logo{
+    padding-left: 123px;
+}
+
+/*------MENU------*/
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    gap: 80px;
+    margin-right: 72px;
+    color: #7189AD;
+    font-size: 18px;
+}
+.home, .chi-siamo, .progetti, .contatti, .lingua{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.home:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.chi-siamo:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.progetti:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.contatti:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.lingua:hover{
+    display: flex;
+    align-items: center;
+    background-color: #7189AD;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.mod-notte{
+    display: flex;
+    align-items: center;
+}
+.menu button{
+    background: transparent;
+    border: none;
+}
+.fa-moon{
+    color: #7189AD;
+    font-size: 20px;
+}
+
+body.dark{
+    background: #313840;
+    color: #e8f2fc;
+    transition: 0.25s ease background-color;
+}
+body.dark .menu a{
+    color: white;
+}
+
+.fa-sun{
+    color: #e8f2fc;
+}
+
+/*-------PAGINA1-------*/
+.pag1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.top-left-p1{
+    width: 700px;
+    height: 148px;
+    
+}
+.bottom-left-p1{
+    
+    margin-left: 1px;
+    margin-top: 50px;
+}
+.right-pag1{
+    width: 628px;
+    height: 492px;
+    border: 1px solid black;
+
+}
+.button-ultima{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------PAGINA2-------*/
+.pag2{
+    height: 80vh;
+}
+.top-pag2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    
+}
+.left-top-pag2{
+    margin-top: 100px;
+}
+.right-top-pag2{
+    width: 320px;
+    height: 320px;
+    background-color: #7189AD;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.bottom-pag2{
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.bottom-left-pag2{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 45%;
+    height: 33%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+.nome-skill{
+    width: 30%;
+}
+.barra-skill{
+    width: 70%;
+    height: 40px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.capacita-skill{
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    height: 28px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+ .prima{
+    width: 60%;
+}
+.seconda{
+    width: 10%;
+}
+.terza{
+    width: 20%;
+}
+.quarta{
+    width: 45%;
+}
+.quinta{
+    width: 90%;
+}
+.sesta{
+    width: 80%;
+}
+.bottom-right-pag2{
+    width: 150px;
+    height: 50px;
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    align-self: flex-end;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.bottom-right-pag2:hover{
+    background: rgb(113,137,173);
+    background: linear-gradient(90deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+}
+.img3{
+    height: 300px;
+    background: rgb(113,137,173);
+}
+/*------PAGINA3------*/
+.pag3{
+    height: 100vh;
+    margin-bottom: 400px;
+}
+.top-pag3{
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+.cards-top{
+    padding-top: 150px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+.nome-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.button-card{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgb(113,137,173);
+    background: linear-gradient(284deg, rgba(113,137,173,1) 0%, rgba(180,210,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+.cards-bottom{
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+/*-------PAGINA4--------*/
+.pag4{
+    height: 90vh;
+    background: rgb(142,171,215);
+background: linear-gradient(338deg, rgba(142,171,215,1) 0%, rgba(220,234,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pag4 h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.bottom-pag4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.bottom-pag4 h3{
+    font-size: 30px;
+    color: #6e88ad;
+    
+}
+.bottom-pag4 p{
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: white;
+}
+.button-prima{
+    
+}
